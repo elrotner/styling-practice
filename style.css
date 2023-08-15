@@ -12,11 +12,15 @@ body {
     display:flex; 
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    flex-wrap: nowrap; 
+    align-items: center;
+    padding: 200px;  
 }
 
-#row {
+.row, .navigation {
     display: flex;
-    flex-direction: row;
+    padding: 20px;
+}
+
+.right {
+    margin-left: auto;
 }
