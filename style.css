@@ -8,4 +8,15 @@ body {
     color: whitesmoke;
 }
 
-.row {display:block; position:relative; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
+.feature {
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: nowrap; 
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
