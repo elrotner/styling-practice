@@ -7,9 +7,16 @@ body {
     color: whitesmoke;
 }
 
-.container-top {
+.info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
 }
