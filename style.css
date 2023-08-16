@@ -21,6 +21,19 @@ body {
     padding: 20px;
 }
 
-.right {
-    margin-left: auto;
+.width-50 {
+    width: 50%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navigation {
+    align-items: center;
+}
+
+.links > a {
+    padding-right: 20px;
 }
