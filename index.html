@@ -14,16 +14,18 @@
 
   <nav class="row">
 
-<!--Spacing was irritating for this line. Decided to just div a bunch of things to try and get the padding to work.-->
+<!--Spacing was irritating for this line. Decided to just div a bunch of things to try and get the padding to work. Found someone with a similar issue on stack overflow, did the inline-block shit and boom fixed. Not sure that was the right move, but it worked-->
 
     <div class="width-50 contact">
       <div class="inline-block"><i class="fa-solid fa-phone-flip"></i></div>
-      <div class="inline-block"><a href="tel:+1234567890">(123) 456 7890</a></div>
+      <div class="inline-block"><a href="tel:+1234567890" style="text-decoration: none; color: whitesmoke;">(123) 456 7890</a></div>
       <div class="inline-block"><i class="fa-regular fa-envelope"></i></div>
-      <div class="inline-block"><a href="mailto:info@domain.com">info@domain.com</a></div>
+      <div class="inline-block"><a href="mailto:info@domain.com" style="text-decoration: none; color: whitesmoke; text-transform: uppercase;">info@domain.com</a></div>
     </div>
 
-    <div class="width-50">
+<!--Decided I wanted these icons to be functional. Challenge myself a little, might be a mistake, but whatever. Linked them to socials-->
+
+    <div class="width-50 social">
       <div class="right"><i class="fa-solid fa-house" title="home"></i></div>
       <div><i class="fa-solid fa-poo" title="idk"></i></div>
       <div><i class="fa-solid fa-right-to-bracket"></i></div>

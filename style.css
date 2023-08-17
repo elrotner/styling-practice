@@ -3,8 +3,8 @@ body {
     background-color: #878596;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Georgia;
-    font-size: 12px;
+    font-family: Playfair Display;
+    font-size: 14px;
     color: whitesmoke;
 }
 
@@ -49,4 +49,10 @@ body {
 .inline-block {
     display: inline-block;
     padding-right: 10px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
 }
