@@ -18,7 +18,6 @@ body {
 
 .row, .navigation {
     display: flex;
-    padding: 20px;
 }
 
 .width-50 {
@@ -36,4 +35,11 @@ body {
 
 .links > a {
     padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
