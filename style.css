@@ -3,7 +3,7 @@ body {
     background-color: #878596;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Playfair Display;
+    font-family: Garamond;
     font-size: 14px;
     color: whitesmoke;
 }
@@ -31,6 +31,8 @@ body {
 
 .navigation {
     align-items: center;
+    margin-left: 45px;
+    margin-right: 40px;
 }
 
 .links > a {
@@ -57,4 +59,16 @@ body {
 .social {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.topline {
+    background-color: whitesmoke;
+    height: 2px;
+    opacity: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
