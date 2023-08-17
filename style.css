@@ -38,8 +38,15 @@ body {
 }
 
 .row {
+    align-items: flex-end;
+}
+
+.contact {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
+}
+
+.inline-block {
+    display: inline-block;
+    padding-right: 10px;
 }
