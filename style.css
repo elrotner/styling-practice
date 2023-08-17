@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Playfair Display;
-    font-size: 12px;
+    font-size: 14px;
     color: whitesmoke;
 }
 
@@ -40,6 +40,8 @@ body {
 .row {
     align-items: flex-end;
     padding-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .contact {
