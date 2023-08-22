@@ -27,16 +27,14 @@ body {
 .links {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .navigation {
     align-items: center;
     margin-left: 45px;
     margin-right: 40px;
-}
-
-.links > a {
-    padding-right: 20px;
 }
 
 .row {
@@ -70,5 +68,11 @@ body {
 }
 
 .uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    font-family: garamond;
+    font-size: 14px;
     text-transform: uppercase;
 }
