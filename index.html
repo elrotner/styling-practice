@@ -49,70 +49,59 @@
     <div class="width-50">
       <h2  class="uppercase">besloor</h2>
     </div>
-
-    <!--This got really aggrivating. So I left it as is without the styling. For whatever reason in CSS I can't just isolate the ul. I tried the parent > ul thing and also just did a .whatever ul and it wasn't registering the ul's as a thing-->
     
-    <div class="width-50 links">
-      <div class="linktext-4">
-        <button>link text</button>
-        <ul>
-          <li><a href="#">subscribe</a></li>
-          <li><a href="#">to</a></li>
-          <li><a href="#">my</a></li>
-          <li><a href="#">onlylinks</a></li>
-        </ul>
-      </div>
-      <div class="linktext-3">
-        <button>link text</button>
-        <ul>
-          <li><a href="#">boring</a></li>
-          <li><a href="#">link</a></li>
-          <li><a href="#">texts</a></li>
-          <li><a href="#">only</a></li>
-        </ul>
-      </div>
-      <div class="linktext-2">
-        <button>link text</button>
-        <ul>
-          <li><a href="#">okay</a></li>
-          <li><a href="#">i'm</a></li>
-          <li><a href="#">done</a></li>
-          <li><a href="#">with nuts</a></li>
-        </ul>
-      </div>  
-      <div class="linktext-1">
-        <button>link text</button>
-        <ul>
-          <li><a href="#">link</a></li>
-          <li><a href="#">text</a></li>
-          <li><a href="#">deez</a></li>
-          <li><a href="#">nuts</a></li>
-        </ul>
-      </div>
-      <div class="dropdown">
-        <button>dropdown</button>
-        <ul>
-          <li><a href="#">drop</a></li>
-          <li><a href="#">down</a></li>
-          <li><a href="#">deez</a></li>
-          <li><a href="#">nuts</a></li>
-        </ul>
-      </div>
-        <div class="pages">
-          <button>pages</button>
-          <ul>
-            <li><a href="#">stuNseeD</a></li>
-            <li><a href="#">read</a></li>
-            <li><a href="#">it</a></li>
-            <li><a href="#">backwards</a></li>
-          </ul>
-        </div>
-      <button><a href="#" style="text-decoration: none;">home</a></button>
-    </div>
+   <div class="width-50 links">
+    <select name="linktext-4" id="choices">
+      <option value="longlinktext">long link text</option>
+      <option value="subscribe">subscribe</option>
+      <option value="to">to</option>
+      <option value="my">my</option>
+      <option value="onlylinks">onlylinks</option>
+    </select>
+
+    <select name="linktext-short3" id="choices">
+      <option value="linktext-3">link text</option>
+      <option value="boring">boring</option>
+      <option value="links">links</option>
+      <option value="only">only</option>
+    </select>
+
+    <select name="linktext-short2" id="choices">
+      <option value="linktext-2">link text</option>
+      <option value="dont">don't</option>
+      <option value="click">click</option>
+      <option value="me">me</option>
+    </select>
+
+    <select name="linktext-short1" id="choices">
+      <option value="linktext-1">link text</option>
+      <option value="link">don't</option>
+      <option value="text">click</option>
+      <option value="deez">me</option>
+      <option value="nutz">nutz</option>
+    </select>
+
+    <select name="dropdown" id="choices">
+      <option value="dropdown">dropdown</option>
+      <option value="deez">deez</option>
+      <option value="nutz">nutz</option>
+    </select>
+
+    <select name="pages" id="choices">
+      <option value="pages">pages</option>
+      <option value="stuNseeD">stuNseeD</option>
+      <option value="read">read</option>
+      <option value="it">it</option>
+      <option value="backwards">backwards</option>
+    </select>
+
+    <button><a href="#" style="text-decoration: none;">home</a></button>
+</div>  
+    
   </nav>
   <hr class="topline">
   <div class="feature">
-    <h2 class="underlined heading">Vestibulum Metus Semper</h2>
+    <h2 class="underlined-heading">Vestibulum Metus Semper</h2>
     <p>Mattis elit ut interdum risis id luctus consecteteur velit neque ornare quam at ornare nisi velit nec turpis.</p>
     <button>morbi accumsan ligula</button>
   </div>
