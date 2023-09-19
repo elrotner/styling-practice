@@ -87,6 +87,7 @@ button {
 
 .underlined-heading {
     font-size: 60px;
+    padding-bottom: 2px;
 }
 
 .faux-underline {
@@ -96,4 +97,11 @@ button {
     font-size: 1px;
     padding: 2px 90px;
     border-radius: 12px;
+}
+
+.wrap {
+    font-size: 18px;
+    inline-size: 500px;
+    word-wrap: break-word;
+    text-align: center;
 }
