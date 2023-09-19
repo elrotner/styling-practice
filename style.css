@@ -105,3 +105,11 @@ button {
     word-wrap: break-word;
     text-align: center;
 }
+
+.feature-split {
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;  
+}
