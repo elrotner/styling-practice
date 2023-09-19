@@ -77,9 +77,10 @@ button {
     text-transform: uppercase;
 }
 
-.underline {
-    background-color: orange;
-    height: 2px;
-    margin-left: 20px;
-    margin-right: 20px;
+.feature-click {
+    background-color: #ff4d00;
+    color: whitesmoke;
+    border-style: none;
+    font-size: 16px;
+    padding: 10px 20px;
 }
