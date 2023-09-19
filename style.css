@@ -84,3 +84,7 @@ button {
     font-size: 16px;
     padding: 10px 20px;
 }
+
+.underlined-heading {
+    font-size: 60px;
+}
