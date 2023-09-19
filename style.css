@@ -88,3 +88,12 @@ button {
 .underlined-heading {
     font-size: 60px;
 }
+
+.faux-underline {
+    background-color: #ff4d00;
+    color: #ff4d00;
+    border-style: none;
+    font-size: 1px;
+    padding: 2px 90px;
+    border-radius: 12px;
+}
